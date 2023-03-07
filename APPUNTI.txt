@@ -1,0 +1,32 @@
+INT *p;
+
+p = p+1;
+
+CSV = Comma separated values;
+
+CPP REFERENCE.
+
+ESERCIZIO
+
+int *p;
+
+int a = 10;
+
+p = &a;
+
+p++;
+printf("%", *p);
+
+int vett[k] o int *a SONO TUTTI E DUE VETTORI;
+
+ALLOCAZIONE DINAMICA: dichiarare un array riservando ad esso lo spazio di memoria che realemente necessita;
+MALLOCK: memory allocation; funzione che ha come parametro la dimensione dell'are di memoria voluta, la mallock ritorna un puntatore a void (VOID*) poi CASTING;
+SIZEOF: ritorna il numero di byte che quel tipo occupa nel tuo computer;
+FREE allocare una sola volta nel programma am ci dimentichiamo di fare la free; memoryLEAK: perdita di memoria.
+
+
+STRUTTURE DATI:
+sono particolare strumenti a disposizione di un programma per memorizzare, organizzare e accedere ai dati efficientemente.
+
+STRUTTURA AUTOREFERENZIALE: struttura che fa riferimento  a se stessa; se la suo interno vi è un campo puntatore che punta alla struttura stessa detto LINK: collegare una struttura ad un altra. 
+
