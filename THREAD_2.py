@@ -13,7 +13,8 @@ class Task(Thread):
         print(f"start thead {self.id}")
         sleep(self.temp)
         print(f"finish thread{self.id}")
-
+        
+#possiamo fare una classe dove generiamo più thread
 
 # creo 2 thread
 listaThread = []
